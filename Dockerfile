@@ -2,7 +2,7 @@
 FROM php:8.3-apache
 
 # define usuário
-ARG user=vitornunesdasilva
+ARG user=<your_username>
 
 # instala as dependencias do laravel
 RUN apt-get update && apt-get install -y \
