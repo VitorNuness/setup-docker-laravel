@@ -14,7 +14,7 @@ services:
 
   # insere as váriaveis do banco de dados
   db:
-    image: mysql:8.0.36
+    image: mysql:latest
     environment:
       MYSQL_DATABASE: ${DB_DATABSE:-laravel}
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root}
